@@ -34,7 +34,7 @@
         function get_tuned_title(){
             $title = get_bloginfo('title');
             $lastchar = '<span class="vim-caret">'.substr($title, -1).'</span>';
-            $newtitle = substr($title, 0, -1).$lastchar;
+            $newtitle = '<h1 class="display-2">'.substr($title, 0, -1).$lastchar.'</h1>';
             return $newtitle;
         }
         add_theme_support( 'post-thumbnails' );

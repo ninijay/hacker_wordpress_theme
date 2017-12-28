@@ -18,7 +18,7 @@ else
 ?>
  
   <div class="card-body">
-    <h4 class="card-title"><a class="text-dark" href="<?php the_permalink();?>"><?php the_title(); ?></a></h4>
+    <h4 class="card-title"><a class="text-dark text-mono" href="<?php the_permalink();?>"><?php the_title(); ?></a></h4>
     <footer class="blockquote-footer"><?php the_date(); ?> <cite title="Source Title">by <?php the_author(); ?></cite></footer>
     <p class="card-text"><?php the_content(); ?></p>
   </div>

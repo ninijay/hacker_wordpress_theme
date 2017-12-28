@@ -8,7 +8,19 @@
       color: white;
     }
 
+    .blog-sidebar a:hover {
+      text-decoration: none;
+      color: #17b06b;
+    }
+#menu-social a{
+  font-size: 2em;
+}
+
 .blog-footer{
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+.display-2{
+  text-transform: lowercase;
 }

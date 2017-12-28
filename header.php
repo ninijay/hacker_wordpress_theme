@@ -24,7 +24,6 @@
   <span class="navbar-toggler-icon"></span>
 </button>
 <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><?php echo get_bloginfo('title'); ?></a>
-
 <div class="collapse navbar-collapse" id="navigation">
       <?php /* Primary navigation */
     wp_nav_menu( array(
@@ -45,7 +44,7 @@
     <div class="ht-tm-header">
       <div class="row">
         <div class="col-xl-6">
-          <h1 class="display-2"><?php echo get_tuned_title(); ?></span></h1>
+          <?php echo get_tuned_title(); ?>
           <div class="lead mb-3 text-mono text-success"><?php echo get_bloginfo('description'); ?></div>
           <div class="text-darkgrey text-mono my-2">A Blog written by Zanidd         
         </div> 
