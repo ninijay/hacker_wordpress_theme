@@ -1,4 +1,13 @@
-  .avatar {
+/*
+Theme Name: Hacker Starter Theme
+Theme URI: 
+Author: Zanidd
+Author URI: https://www.tech-brew.net
+Description: A basic theme using the Bootstrap framework.
+Version: 1.0
+Text Domain: bootstrapstarter
+*/
+.avatar {
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
