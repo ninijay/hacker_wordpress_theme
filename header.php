@@ -15,28 +15,27 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php wp_head(); ?>
-    
 </head>
 
 <body <?php body_class(); ?>>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary ht-tm-element">
-<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-success ht-tm-element">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
 <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><?php echo get_bloginfo('title'); ?></a>
 
-<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-  <?php /* Primary navigation */
-wp_nav_menu( array(
-  'menu' => 'top_menu',
-  'depth' => 2,
-  'container' => false,
-  'menu_class' => 'navbar-nav mr-auto mt-2 mt-md-0',
-  //Process nav menu using our custom nav walker
-  'walker' => new wp_bootstrap_navwalker())
-);
-?>
+<div class="collapse navbar-collapse" id="navigation">
+      <?php /* Primary navigation */
+    wp_nav_menu( array(
+      'menu' => 'top_menu',
+      'depth' => 2,
+      'container' => false,
+      'menu_class' => 'nav navbar-nav mr-auto mt-2 mt-md-0',
+      //Process nav menu using our custom nav walker
+      'walker' => new wp_bootstrap_navwalker())
+    );
+    ?>
 </div>
 </nav>
 <div class="blog-header">

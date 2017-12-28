@@ -1,0 +1,14 @@
+  .avatar {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    }
+
+    .blog-sidebar a {
+      color: white;
+    }
+
+.blog-footer{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
