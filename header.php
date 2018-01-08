@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-success ht-tm-element">
+<nav class="navbar navbar-expand-lg navbar-dark bg-success ht-tm-element fixed-top">
 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
